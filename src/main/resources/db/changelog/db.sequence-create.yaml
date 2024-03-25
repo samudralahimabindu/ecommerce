@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: v1.0-product-sequence
+      author: HimaBindu
+      changes:
+        - createSequence:
+            incrementBy: 1
+            maxValue : 9999999999
+            minValue: 1
+            startValue: 1
+            sequenceName: SEQ_PRODUCT

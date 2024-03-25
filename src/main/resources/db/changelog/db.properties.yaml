@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - property:
+      name: now
+      value: sysdate
+      dbms: oracle
+  - property:
+      name: now
+      value: now()
+      dbms: mysql
+  - property:
+      name: now
+      value: now()
+      dbms: h2
